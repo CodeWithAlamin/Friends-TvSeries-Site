@@ -6,7 +6,7 @@
 
 <h2 align="center">
 
-[🚀Live Website](https://friends-tv-series-codepapa360.netlify.app)
+[🚀Live Website](https://friends-tv-series-CodeWithAlamin.netlify.app)
 
 </h2>
 
@@ -21,9 +21,9 @@
 </div>
 
 <!-- Screenshot -->
-<a align="center" href="https://friends-tv-series-codepapa360.netlify.app">
+<a align="center" href="https://friends-tv-series-CodeWithAlamin.netlify.app">
 
-![Screenshot](./screenshots/friends-tv-series-preview-codepapa360.jpg)
+![Screenshot](./screenshots/friends-tv-series-preview-CodeWithAlamin.jpg)
 
 </a>
 
@@ -85,12 +85,12 @@ Feel free to contact me with any questions or feedback!
 
 <b>👤 Alamin</b>
 
-- Twitter - [@CodePapa360](https://www.twitter.com/CodePapa360)
-- LinkedIn - [@CodePapa360](https://www.linkedin.com/in/codepapa360)
-- Frontend Mentor - [@CodePapa360](https://www.frontendmentor.io/profile/CodePapa360)
-- Github: [@CodePapa360](https://github.com/codepapa360)
+- Twitter - [@CodeWithAlamin](https://www.twitter.com/CodeWithAlamin)
+- LinkedIn - [@CodeWithAlamin](https://www.linkedin.com/in/CodeWithAlamin)
+- Frontend Mentor - [@CodeWithAlamin](https://www.frontendmentor.io/profile/CodeWithAlamin)
+- Github: [@CodeWithAlamin](https://github.com/CodeWithAlamin)
 
 ## License
 
-This project is licensed under the [MIT](https://github.com/CodePapa360/Friends-TvSeries-Site/blob/main/LICENSE.md) License - see the LICENSE file for details.
+This project is licensed under the [MIT](https://github.com/CodeWithAlamin/Friends-TvSeries-Site/blob/main/LICENSE.md) License - see the LICENSE file for details.
 

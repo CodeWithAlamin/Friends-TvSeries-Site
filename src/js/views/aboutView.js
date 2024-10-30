@@ -48,20 +48,20 @@ export default function () {
         <p class="explanation">
           Feel free to connect with me on
           <a
-            href="https://www.linkedin.com/in/codepapa360/"
+            href="https://www.linkedin.com/in/CodeWithAlamin/"
             target="_blank"
             rel="noopener noreferrer"
             >LinkedIn</a
           >,
           <a
-            href="https://twitter.com/CodePapa360"
+            href="https://twitter.com/CodeWithAlamin"
             target="_blank"
             rel="noopener noreferrer"
             >Twitter</a
           >
           or
           <a
-            href="https://github.com/CodePapa360"
+            href="https://github.com/CodeWithAlamin"
             target="_blank"
             rel="noopener noreferrer"
             >GitHub</a
