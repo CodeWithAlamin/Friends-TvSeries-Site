@@ -6,7 +6,7 @@
 
 <h2 align="center">
 
-[🚀Live Website](https://friends-tv-series-CodeWithAlamin.netlify.app)
+[🚀Live Website](https://friends-tv-series-alamin.netlify.app)
 
 </h2>
 
@@ -21,7 +21,7 @@
 </div>
 
 <!-- Screenshot -->
-<a align="center" href="https://friends-tv-series-CodeWithAlamin.netlify.app">
+<a align="center" href="https://friends-tv-series-alamin.netlify.app">
 
 ![Screenshot](./screenshots/friends-tv-series-preview-CodeWithAlamin.jpg)
 
