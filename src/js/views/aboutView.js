@@ -33,11 +33,9 @@ export default function () {
           and deepen my understanding of web development.
         </p>
 
-        <h2 class="secondary-heading">Video sources</h2>
+        <h2 class="secondary-heading">Video source</h2>
         <p class="explanation">
           Video links were sourced from a 3rd party public google drive shared by a user named: (hajxh1) and the drive link is https://drive.google.com/drive/folders/1JqyfZKdkhmgymOVxZbfePG6XqQGUGoZF
-
-        
         </p>
         <p>
         It is not a commercial project and the videos are not hosted on this site. The videos are streamed from the google drive directly.

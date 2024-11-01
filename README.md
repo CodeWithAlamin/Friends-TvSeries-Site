@@ -61,19 +61,25 @@ One of the significant challenges in building this website was implementing a cu
 
 Dark mode enhances the user experience by providing an alternative color scheme that is easier on the eyes, especially in low-light conditions. Users can toggle between light and dark mode, and their preference is remembered using local storage.
 
+## How It Started
+
+This project began when I started watching episodes of the "Friends" TV series online and became frustrated with the abundance of ads and pop-ups on various streaming platforms. Inspired by the desire to create a better viewing experience and hone my web development skills, I embarked on building this website from scratch.
+
 ## Technical Details
 
 ### Implementation Challenges
 
-One of the most challenging aspects of this project was developing a custom routing mechanism. Without utilizing frameworks or libraries, I needed to meticulously handle the application's state, ensuring accurate content display as users moved across sections. I utilized JSON files to manage season and episode data. Additionally, a separate JSON file stored the video URLs, allowing flexibility for future updates. These URLs were collected from sflix.com in the m3u8 format. I sourced the video URLs from platforms like sflix.com, where the videos are available in the m3u8 format.
+One of the most challenging aspects of this project was developing a custom routing mechanism. Without utilizing frameworks or libraries, I needed to meticulously handle the application's state, ensuring accurate content display as users moved across sections. I utilized JSON files to manage season and episode data. Additionally, a separate JSON file stored the video URLs, allowing flexibility for future updates.
 
 ### No Frameworks or Libraries
 
 To further enhance my JavaScript skills, I chose to build the entire website without relying on any frameworks or libraries. This decision allowed me to gain a deep understanding of how various components work together, from event handling to dynamic content loading.
 
-## How It Started
+### Video source
 
-This project began when I started watching episodes of the "Friends" TV series online and became frustrated with the abundance of ads and pop-ups on various streaming platforms. Inspired by the desire to create a better viewing experience and hone my web development skills, I embarked on building this website from scratch.
+Video links were sourced from a 3rd party public google drive shared by a user named: (hajxh1) and the drive link is https://drive.google.com/drive/folders/1JqyfZKdkhmgymOVxZbfePG6XqQGUGoZF
+
+It is not a commercial project and the videos are not hosted on this site. The videos are streamed from the google drive directly.
 
 ## Contributing
 
