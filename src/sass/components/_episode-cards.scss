@@ -23,59 +23,57 @@
     &:hover,
     &:active,
     &:focus {
-      .card-contents {
-        transform: scale(0.97);
-      }
+      transform: scale(0.97);
+      outline: 3px solid var(--clr-primary);
 
       .title {
         color: var(--clr-primary);
       }
     }
 
-    .card-contents {
-      background-color: var(--clr-light-gray);
-      padding: 0.5rem;
-      transition: transform 0.2s ease;
-      border-radius: 10px;
-      text-align: center;
-      color: var(--clr-white);
-      display: block;
-      height: 100%;
-      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background-color: var(--clr-light-gray);
+    padding: 0.5rem;
+    transition: transform 0.2s ease;
+    border-radius: 10px;
+    text-align: center;
+    color: var(--clr-white);
+    display: block;
+    height: 100%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
 
-      .thumbnail {
-        border-radius: 5px;
-        overflow: hidden;
-        margin-bottom: 1rem;
+    .thumbnail {
+      border-radius: 5px;
+      overflow: hidden;
+      margin-bottom: 1rem;
 
-        img {
-          height: 100%;
-          width: 100%;
-          object-fit: cover;
-        }
-      }
-
-      .title {
-        font-weight: 700;
-        font-size: 1.1rem;
-        margin-bottom: 1rem;
-        transition: color 0.2s ease;
-      }
-
-      .title-secondary {
-        font-size: 1rem;
-        font-weight: normal;
-      }
-
-      .release-date {
-        font-size: 0.8rem;
-        opacity: 0.5;
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
       }
     }
 
-    .card-contents.playing {
+    .title {
+      font-weight: 700;
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+      transition: color 0.2s ease;
+    }
+
+    .title-secondary {
+      font-size: 1rem;
+      font-weight: normal;
+    }
+
+    .release-date {
+      font-size: 0.8rem;
+      opacity: 0.5;
+    }
+
+    &.playing {
       position: relative;
-      outline: 1px solid rgba(191, 0, 230, 0.9);
+      outline: 3px solid var(--clr-primary);
+      pointer-events: none !important;
 
       &::after {
         content: "Playing";
@@ -83,12 +81,13 @@
         color: white;
         top: 0.5rem;
         right: 0.5rem;
-        background: linear-gradient(
-          to bottom right,
-          rgba(0, 228, 245, 0.9),
-          rgba(191, 0, 230, 0.9),
-          rgba(143, 252, 0, 0.9)
-        );
+        background-color: var(--clr-primary);
+        // background: linear-gradient(
+        //   to bottom right,
+        //   rgba(0, 228, 245, 0.9),
+        //   rgba(191, 0, 230, 0.9),
+        //   rgba(143, 252, 0, 0.9)
+        // );
         border-radius: 5px;
         padding: 0.1rem 0.5rem;
         font-size: 1.5rem;
@@ -96,3 +95,4 @@
     }
   }
 }
+

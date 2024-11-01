@@ -17,7 +17,7 @@ export default function () {
           uninterrupted.
         </p>
 
-        <h2 class="secondary-heading">Behind the Scenes🎬</h2>
+        <h2 class="secondary-heading">Behind the Scenes</h2>
         <p class="explanation">
           This is a personal endeavor that let me refine my JavaScript
           skills and put my web development knowledge into action. From UI
@@ -25,7 +25,7 @@ export default function () {
           learning experience.
         </p>
 
-        <h2 class="secondary-heading">Technical Approach🛠️</h2>
+        <h2 class="secondary-heading">Technical Approach</h2>
         <p class="explanation">
           The site is constructed with HTML, CSS (Sass), and Vanilla
           JavaScript. I chose to
@@ -35,7 +35,7 @@ export default function () {
 
         <h2 class="secondary-heading">Video source</h2>
         <p class="explanation">
-          Video links were sourced from a 3rd party public google drive shared by a user named: (hajxh1) and the drive link is https://drive.google.com/drive/folders/1JqyfZKdkhmgymOVxZbfePG6XqQGUGoZF
+          Video links were sourced from crowcast.x10.mx and moviepire.net
         </p>
         <p>
         It is not a commercial project and the videos are not hosted on this site. The videos are streamed from the google drive directly.
@@ -51,7 +51,7 @@ export default function () {
           skills but also reflects my passion for "Friends."
         </p>
 
-        <h2 class="secondary-heading">Contact📞</h2>
+        <h2 class="secondary-heading">Social media</h2>
         <p class="explanation">
           Feel free to connect with me on
           <a

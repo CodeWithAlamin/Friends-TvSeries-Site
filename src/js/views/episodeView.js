@@ -10,7 +10,7 @@ export default function (data) {
     class="episode-cards__card">
       <div class="card-contents">
         <div class="thumbnail">
-          <img src="../../thumbnails/S${season.season}/S${season.season}E${curE.episode}.jpg" alt="Episode ${curE.episode}" />
+          <img src="/thumbnails/S${season.season}/S${season.season}E${curE.episode}.jpg" alt="Episode ${curE.episode}" />
         </div>
         
         <h2 class="title">${curE.title}</h2>
@@ -32,3 +32,4 @@ export default function (data) {
       </div>
     `;
 }
+

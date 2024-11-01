@@ -1,6 +1,7 @@
 .header {
   background-color: var(--clr-bg-secondary);
   border-radius: 0 0 15px 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 
   .header-contents {
     display: flex;
@@ -8,7 +9,6 @@
     justify-content: space-between;
     padding: 1rem;
     position: relative;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 
     @media screen and (min-width: $bp-small) {
       padding: 1rem 2rem;
@@ -97,7 +97,7 @@
     }
 
     .nav.open ~ .hamburger-menu img {
-      content: url(../../images/circle-xmark-regular.svg);
+      content: url(/images/circle-xmark-regular.svg);
     }
   }
 }
@@ -126,3 +126,4 @@
   visibility: visible;
   pointer-events: all;
 }
+

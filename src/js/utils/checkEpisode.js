@@ -1,5 +1,5 @@
 import jsonData from "../../data/allData.json";
-import jsonVideoUrls from "../../data/videoUrls.json";
+// import jsonVideoUrls from "../../data/videoUrls.json";
 
 export default function (place) {
   const info = { status: false };
@@ -21,20 +21,21 @@ export default function (place) {
     (sea) => sea.episode === +episodeNum[1],
   );
 
-  const targetVidUrlSeason = jsonVideoUrls.find(
-    (sea) => sea.season === +seasonNum[1],
-  ).episodes;
+  // const targetVidUrlSeason = jsonVideoUrls.find(
+  //   (sea) => sea.season === +seasonNum[1],
+  // ).episodes;
 
-  const videoUrl = targetVidUrlSeason.find(
-    (ep) => ep.episode === +episodeNum[1],
-  ).link;
+  // const videoUrl = targetVidUrlSeason.find(
+  //   (ep) => ep.episode === +episodeNum[1],
+  // ).link;
 
   return {
     status: true,
     data: {
       season: targetSeason,
       episode: targetEpisode,
-      vidUrl: videoUrl,
+      // vidUrl: videoUrl,
     },
   };
 }
+
