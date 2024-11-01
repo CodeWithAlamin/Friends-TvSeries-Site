@@ -1,6 +1,5 @@
 /* eslint-disable no-new */
 /* eslint-disable no-restricted-globals */
-import "video.js/dist/video-js.min.css";
 import verifyPlace from "./utils/verifyPlace";
 import darkMode from "./utils/darkMode";
 import NavBar from "./components/navBar";
@@ -65,3 +64,4 @@ function init() {
 }
 
 document.addEventListener("DOMContentLoaded", init);
+

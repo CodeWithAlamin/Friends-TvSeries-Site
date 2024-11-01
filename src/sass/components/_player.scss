@@ -2,7 +2,7 @@
   padding: 1rem;
 
   .video-container {
-    position: relative;
+    display: flex;
     padding: 0.5rem;
     background-color: var(--clr-light-gray);
     background: linear-gradient(
@@ -17,16 +17,17 @@
     margin: auto;
     margin-bottom: 2rem;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+    aspect-ratio: 16/9;
 
     #my-player {
+      height: 100%;
       width: 100%;
-      height: auto;
       border-radius: 5px;
       overflow: hidden;
     }
 
-    video[poster] {
-      object-fit: cover;
+    iframe {
+      border: none;
     }
   }
 
@@ -65,3 +66,4 @@
     }
   }
 }
+

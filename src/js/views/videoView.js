@@ -27,26 +27,8 @@ export default function (data) {
   return `
 <div class="container">
 <section class="video-section">
-  <div class="video-container">
-    <video
-      playsinline
-      id="my-player"
-      class="video-js vjs-default-skin vjs-fluid"
-      poster="../../thumbnails/S${data.season.season}/S${data.season.season}E${data.episode.episode}.jpg"
-      controls
-      preload="auto"
-    >
-      <source
-        src="${data.vidUrl}"
-        type="application/x-mpegURL"
-      />
 
-      <p class="vjs-no-js">
-        To view this video, please enable JavaScript, and consider
-        upgrading to a web browser that supports HTML5 video
-      </p>
-    </video>
-  </div>
+  <div class="video-container"></div>
 
   <div class="video-info">
     <h1 class="video-title">${data.episode.title}</h1>
@@ -68,3 +50,4 @@ export default function (data) {
 </div>
   `;
 }
+

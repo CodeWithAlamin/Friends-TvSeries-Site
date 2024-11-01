@@ -1,9 +1,12 @@
-import videojs from "video.js";
 import videoView from "../views/videoView";
 
-let player;
-
 export default function (data) {
+  console.log(data);
+  const video = document.createElement("iframe");
+  video.src = data.vidUrl;
+  video.allowFullscreen = true;
+  video.id = "my-player";
+
   const layoutdata = videoView(data);
   const container = document.getElementById("App");
 
@@ -13,16 +16,11 @@ export default function (data) {
   setTimeout(() => {
     container.innerHTML = layoutdata;
 
-    if (player) {
-      // Dispose of the existing player instance
-      player.dispose();
-    }
+    const videoContainer = container.querySelector(".video-container");
+    videoContainer.appendChild(video);
 
-    // Initialize the player with the new content
-    player = videojs("my-player", {
-      techOrder: ["html5"],
-    });
     container.style.transform = "translateX(0)";
     container.style.opacity = "1";
   }, 100);
 }
+
