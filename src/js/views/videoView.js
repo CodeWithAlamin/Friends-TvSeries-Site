@@ -2,6 +2,12 @@ export default function (data) {
   const epNum = data.episode.episode;
   const seasonNum = data.season.season;
 
+  // crowcast.x10.mx
+  const source1 = `<iframe id="my-player" class="responsive-embed-item" src="https://vidsrc.cc/v2/embed/tv/tt0108778/${seasonNum}/${epNum}" frameborder="0" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>`;
+
+  // moviepire.net (backup source)
+  // const source2 = `<iframe id="my-player" allowfullscreen="" referrerpolicy="origin" src="https://vidsrc.xyz/embed/tv/1668/${seasonNum}-${epNum}"></iframe>`;
+
   const innerMarkup = data.season.episodes
     .map(
       (curE) => `
@@ -25,12 +31,6 @@ export default function (data) {
   `,
     )
     .join("");
-
-  // crowcast.x10.mx
-  const source1 = `<iframe id="my-player" class="responsive-embed-item" src="https://vidsrc.cc/v2/embed/tv/tt0108778/${seasonNum}/${epNum}" frameborder="0" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>`;
-
-  // moviepire.net
-  const source2 = `<iframe id="my-player" allowfullscreen="" referrerpolicy="origin" src="https://vidsrc.xyz/embed/tv/1668/${seasonNum}-${epNum}"></iframe>`;
 
   return `
 <div class="container">

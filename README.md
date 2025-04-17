@@ -1,101 +1,79 @@
 <div align="center">
 
-# Friends TV Series Website
-
-</div>
-
-<h2 align="center">
-
-[🚀Live Website](https://friends-tv-series-alamin.netlify.app)
-
-</h2>
-
-<!-- Badges -->
-<div align="center">
-
-<img src="https://img.shields.io/badge/Status-Completed-success?style=flat" alt="Status" />
-
-<!-- Liceensee -->
-<img src="https://img.shields.io/badge/License-MIT-blue?style=flat" alt="License" />
-
-</div>
-
-<!-- Screenshot -->
-<a align="center" href="https://friends-tv-series-alamin.netlify.app">
+# Friends TV Series Viewer
 
 ![Screenshot](./screenshots/friends-tv-series-preview-CodeWithAlamin.jpg)
 
-</a>
+[![Status](https://img.shields.io/badge/Status-Completed-success?style=flat)](https://friends-tv-series-alamin.netlify.app)
+[![License](https://img.shields.io/badge/License-MIT-blue?style=flat)](https://github.com/CodeWithAlamin/Friends-TvSeries-Site/blob/main/LICENSE.md)
 
-Welcome to the Friends TV Series website! This project emerged from a simple desire: to create an ad-free platform for enjoying every episode of the iconic show "Friends." Fed up with ads and pop-ups on other streaming sites, I crafted a clean, user-friendly space for me and fellow fans to enjoy the series uninterrupted.
+[View Live Site](https://friends-tv-series-alamin.netlify.app)
 
-## Table of Contents
+</div>
 
-- [Project Overview](#project-overview)
-- [Features](#features)
-  - [Dynamic Content Loading](#dynamic-content-loading)
-  - [Custom Routing Mechanism](#custom-routing-mechanism)
-  - [Dark Mode](#dark-mode)
-- [Technical Details](#technical-details)
-  - [Implementation Challenges](#implementation-challenges)
-  - [No Frameworks or Libraries](#no-frameworks-or-libraries)
-- [How It Started](#how-it-started)
-- [Contributing](#contributing)
-- [Contact](#contact)
+## Overview
 
-## Project Overview
-
-This project is a single-page website that provides a user-friendly and ad-free platform to watch episodes of the "Friends" TV series. The idea behind this project was born out of frustration with other streaming sites that bombard users with ads and pop-ups, disrupting the viewing experience. The website aims to provide a clean and enjoyable way to watch the series, while also serving as a practical way to enhance JavaScript skills.
+This project is a distraction-free viewer for the iconic "Friends" TV series. Built with vanilla JavaScript, HTML, and CSS, it provides a clean interface to browse and watch episodes without the interruption of ads or pop-ups that plague many streaming sites.
 
 ## Features
 
-### Dynamic Content Loading
+- **Clean, Ad-Free Interface**: A minimalist design focused on content
+- **Dark/Light Mode**: Toggle between color schemes with automatic preference saving
+- **Season & Episode Navigation**: Easily browse all seasons and episodes
+- **Responsive Design**: Optimized viewing experience across devices
+- **Dynamic Content Loading**: No page refreshes needed when navigating
+- **Custom SPA Routing**: Smooth transitions between different sections
 
-The website features dynamic content loading, allowing users to navigate through different seasons and episodes seamlessly. Each episode is presented as a card with a thumbnail, title, and release date. Clicking on an episode card updates the content on the page without requiring a full page reload.
+## Technical Implementation
 
-### Custom Routing Mechanism
+### Pure Vanilla JavaScript
 
-One of the significant challenges in building this website was implementing a custom routing mechanism for a single-page application without using any frameworks or libraries. The routing system allows users to navigate between different sections of the website while maintaining a smooth and fluid user experience.
+This project was purposely built without any frameworks or libraries as a personal challenge to deepen my understanding of core JavaScript concepts. This approach allowed me to:
 
-### Dark Mode
+- Implement custom state management
+- Build a routing system from scratch
+- Handle DOM manipulation directly
+- Manage event listeners efficiently
 
-Dark mode enhances the user experience by providing an alternative color scheme that is easier on the eyes, especially in low-light conditions. Users can toggle between light and dark mode, and their preference is remembered using local storage.
+### Design Approach
 
-## How It Started
+The application uses:
 
-This project began when I started watching episodes of the "Friends" TV series online and became frustrated with the abundance of ads and pop-ups on various streaming platforms. Inspired by the desire to create a better viewing experience and hone my web development skills, I embarked on building this website from scratch.
+- JSON data structures for episode information
+- Custom routing for single-page application behavior
+- Local storage for user preferences
+- Dynamic content rendering
+- Custom event handling
 
-## Technical Details
+## Legal Disclaimer
 
-### Implementation Challenges
+This project is a personal, non-commercial application created for educational purposes and personal use only. The website doesn't host, store, or distribute any copyrighted media content.
 
-One of the most challenging aspects of this project was developing a custom routing mechanism. Without utilizing frameworks or libraries, I needed to meticulously handle the application's state, ensuring accurate content display as users moved across sections. I utilized JSON files to manage season and episode data. Additionally, a separate JSON file stored the video URLs, allowing flexibility for future updates.
+All video content is streamed from third-party sources (specifically "vidsrc.cc" and "crowcast.x10.mx") through their public APIs. This project simply organizes and provides an interface to access content that is already publicly available elsewhere on the internet.
 
-### No Frameworks or Libraries
+I do not claim ownership of any media content accessible through this website, and all copyrighted content belongs to their respective owners. The "Friends" TV series and all related characters, storylines, and content are the property of Warner Bros. Entertainment Inc.
 
-To further enhance my JavaScript skills, I chose to build the entire website without relying on any frameworks or libraries. This decision allowed me to gain a deep understanding of how various components work together, from event handling to dynamic content loading.
+If you are a copyright owner and believe that content accessible through this site infringes on your rights, please contact me immediately, and I will promptly address your concerns.
 
-### Video source
+This project is not affiliated with, sponsored by, or endorsed by Warner Bros. Entertainment Inc., NBC, or any entities associated with the "Friends" TV series.
 
+## Project Background
 
-It is not a commercial project and the videos are not hosted on this site. The videos are streamed from the google drive directly.
+This project stemmed from personal frustration with existing streaming options for "Friends" that were cluttered with intrusive advertisements. What began as a solution to enhance my own viewing experience evolved into a comprehensive project that helped sharpen my web development skills.
 
 ## Contributing
 
-This project was primarily developed as a personal learning experience. However, if you'd like to contribute, feel free to fork the repository, make improvements, and submit a pull request.
+While this project was developed as a personal learning experience, contributions are welcome. Feel free to fork the repository and submit pull requests with improvements or fixes.
 
 ## Contact
 
-Feel free to contact me with any questions or feedback!
+<b>Alamin</b>
 
-<b>👤 Alamin</b>
-
-- Twitter - [@CodeWithAlamin](https://www.twitter.com/CodeWithAlamin)
-- LinkedIn - [@CodeWithAlamin](https://www.linkedin.com/in/CodeWithAlamin)
-- Frontend Mentor - [@CodeWithAlamin](https://www.frontendmentor.io/profile/CodeWithAlamin)
-- Github: [@CodeWithAlamin](https://github.com/CodeWithAlamin)
+- [Twitter (@CodeWithAlamin)](https://www.twitter.com/CodeWithAlamin)
+- [LinkedIn (@CodeWithAlamin)](https://www.linkedin.com/in/CodeWithAlamin)
+- [Frontend Mentor (@CodeWithAlamin)](https://www.frontendmentor.io/profile/CodeWithAlamin)
+- [GitHub (@CodeWithAlamin)](https://github.com/CodeWithAlamin)
 
 ## License
 
-This project is licensed under the [MIT](https://github.com/CodeWithAlamin/Friends-TvSeries-Site/blob/main/LICENSE.md) License - see the LICENSE file for details.
-
+This project is licensed under the [MIT License](https://github.com/CodeWithAlamin/Friends-TvSeries-Site/blob/main/LICENSE.md).
