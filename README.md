@@ -77,7 +77,6 @@ To further enhance my JavaScript skills, I chose to build the entire website wit
 
 ### Video source
 
-Video links were sourced from a 3rd party public google drive shared by a user named: (hajxh1) and the drive link is https://drive.google.com/drive/folders/1JqyfZKdkhmgymOVxZbfePG6XqQGUGoZF
 
 It is not a commercial project and the videos are not hosted on this site. The videos are streamed from the google drive directly.
 
